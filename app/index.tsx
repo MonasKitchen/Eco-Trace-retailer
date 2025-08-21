@@ -8,7 +8,7 @@ export default function Index() {
       {/* Logo / Icon */}
       <View className="items-center">
         <Text className="text-5xl">🌱</Text>
-        <Text className="text-3xl font-bold text-black mt-2">EcoTrace</Text>
+        <Text className="text-3xl font-bold text-black mt-2">EcoTrace  - Retailer</Text>
         <View className="w-16 h-[1px] bg-gray-300 mt-2" />
         <Text className="text-center text-[4vw] text-gray-600 mt-2">
           A all-in-one plastic problem{"\n"}solver and tracker
@@ -28,7 +28,7 @@ export default function Index() {
 
       {/* Button */}
       <TouchableOpacity className="bg-green-600 rounded-lg px-6 py-3 mt-6">
-        <Link href={"/roles"}>
+        <Link href={"/login"}>
         <Text className="text-white font-semibold text-base">
           Start you journey
         </Text>
